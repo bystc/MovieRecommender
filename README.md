@@ -90,6 +90,8 @@ Y = mX + b;
 
 d) 对数据模型的优化——In-memory DataModel
 
-上面所叙述的三种推荐引擎，输入的都是用户的历史偏好信息，在 Mahout 里它被建模为 Preference（接口），一个 Preference 就是一个简单的三元组 < 用户 ID, 物品 ID, 用户偏好 >，它的实现类是 GenericPreference，
+上面所叙述的三种推荐引擎，输入的都是用户的历史偏好信息，在 Mahout 里它被建模为 Preference（接口），一个 Preference 就是一个简单的三元组 < 用户 ID, 物品 ID, 用户偏好 >，它的实现类是 GenericPreference，可以通过以下语句创建一个 GenericPreference：
+GenericPreference preference = new GenericPreference(1, 101, 4.0f);  
+这其中， 1是用户 ID，long 型；101是物品 ID，long 型；4.0f 是用户偏好，float 型。从这个例子可以看出，一个 GenericPreference 的数据就占用8+8+4=20 字节，所以如果只简单实用数组 Array 加载用户偏好数据，必然占用大量的内存，Mahout 在这方面做了一些优化，它创建了 PreferenceArray（接口）保存一组用户偏好数据，为了优化性能，Mahout 给出了两个实现类，GenericUserPreferenceArray 和 GenericItemPreferenceArray，分别按照用户和物品本身对用户偏好进行组装，这样就可以压缩用户 ID 或者物品 ID 的空间。
 
 #### 原博客地址：http://blog.csdn.net/huhui_cs/article/details/8596388
