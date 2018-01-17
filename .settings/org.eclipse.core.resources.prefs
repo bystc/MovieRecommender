@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/com/rcd/conn/ConnectToMySQL.java=UTF-8
+encoding//src/com/rcd/model/recommender/MyItemBasedRecommender.java=UTF-8
+encoding//src/com/rcd/model/recommender/MySlopeOneRecommender.java=UTF-8
