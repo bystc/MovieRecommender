@@ -1,5 +1,5 @@
 /**
- * ������ݿ�
+ * 锟斤拷锟斤拷锟斤拷菘锟�
  */
 package com.rcd.conn;
 
@@ -12,7 +12,7 @@ public class ConnectToMySQL {
 	public static Connection getConnection(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/movie", "root", "123456");
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/movie", "root", "hzb19961010");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

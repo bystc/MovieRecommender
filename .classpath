@@ -1,63 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/cglib-nodep-2.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/classworlds-1.1-alpha-2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-beanutils-1.7.0.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-cli-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-cli-2.0-mahout.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-codec-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-dbcp-1.2.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-digester-1.7.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-httpclient-3.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-lang-2.4.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-math-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/commons-pool-1.4.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/easymock-2.5.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/easymockclassextension-2.5.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/file-management-1.2.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/google-collections-1.0-rc2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/gson-1.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/hadoop-core-0.20.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/hbase-0.20.0.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/javaee-api-5.0-1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/jets3t-0.7.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/junit-4.7.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-analyzers-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-benchmark-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-core-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-demos-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-highlighter-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-memory-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/lucene-wikipedia-2.9.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/mahout-collections-0.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/mahout-core-0.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/mahout-examples-0.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/mahout-math-0.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/mahout-utils-0.3.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/maven-artifact-2.0.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/maven-artifact-manager-2.0.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/maven-plugin-api-2.0.6.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/maven-repository-metadata-2.0.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/maven-shared-io-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/objenesis-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/oro-2.0.8.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/plexus-container-default-1.0-alpha-9.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/plexus-utils-1.5.6.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/slf4j-api-1.5.8.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/slf4j-jcl-1.5.8.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/uncommons-maths-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/velocity-1.5.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/wagon-provider-api-1.0-alpha-6.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/watchmaker-framework-0.6.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/watchmaker-swing-0.6.2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/xml-apis-1.0.b2.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/xpp3_min-1.1.4c.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/MahoutJars/xstream-1.3.1.jar"/>
-	<classpathentry kind="lib" path="/home/huhui/develop/Jars/mysql-connector-java-5.0.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql-Driver">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/mahout-collections-0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/mahout-core-0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/mahout-examples-0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/mahout-math-0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/mahout-utils-0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/cglib-nodep-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/classworlds-1.1-alpha-2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-beanutils-1.7.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-cli-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-cli-2.0-mahout.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-codec-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-collections-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-dbcp-1.2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-digester-1.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-httpclient-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-lang-2.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-math-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/commons-pool-1.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/easymock-2.5.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/easymockclassextension-2.5.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/file-management-1.2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/google-collections-1.0-rc2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/gson-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/hadoop-core-0.20.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/hbase-0.20.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/javaee-api-5.0-1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/jets3t-0.7.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/junit-4.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-analyzers-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-benchmark-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-core-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-demos-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-highlighter-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-memory-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/lucene-wikipedia-2.9.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/maven-artifact-2.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/maven-artifact-manager-2.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/maven-plugin-api-2.0.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/maven-repository-metadata-2.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/maven-shared-io-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/objenesis-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/oro-2.0.8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/plexus-container-default-1.0-alpha-9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/plexus-utils-1.5.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/slf4j-api-1.5.8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/slf4j-jcl-1.5.8.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/uncommons-maths-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/velocity-1.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/wagon-provider-api-1.0-alpha-6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/watchmaker-framework-0.6.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/watchmaker-swing-0.6.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/xml-apis-1.0.b2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/xpp3_min-1.1.4c.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/mahout-0.3/lib/xstream-1.3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_5.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web.jstl"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.82/lib/jasper-el.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

@@ -25,7 +25,7 @@ public class ImportMovies {
 	public static void main(String[] args) {
 		try {
 			LineNumberReader lineReader = new LineNumberReader(new FileReader(
-					"/home/huhui/movies.dat"));
+					"movielens/movies.dat"));
 			String line = "";
 			List<Movie> movieList = new ArrayList<Movie>();
 			while ((line = lineReader.readLine()) != null) {

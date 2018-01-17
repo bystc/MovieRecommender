@@ -16,7 +16,7 @@ public class DBUtil {
 		String driverClassName = "com.mysql.jdbc.Driver";
 		String url = "jdbc:mysql://localhost/movie";
 		String username = "root";
-		String password = "HUHUI";
+		String password = "hzb19961010";
 		Connection conn = null;
 		try {
 			Class.forName(driverClassName);

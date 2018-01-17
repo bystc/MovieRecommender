@@ -23,7 +23,7 @@
     <tr><td>Movie Name</td><td>Published Year</td><td>Movie Type</td><td>Score</td></tr>
     <%
   		//定义一个颜色数组
- 		String []color = {"silver","orange"};
+ 		String []color = {"white","white"};
     	for(int i=0;i<ownMovieInfo.size();i++){
     		MovieInfo ownInfo = ownMovieInfo.get(i);
     		%>
