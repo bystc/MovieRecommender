@@ -19,10 +19,10 @@ public class MyItemBasedRecommender {
 	public List<RecommendedItem> myItemBasedRecommender(long userID,int size){
 		List<RecommendedItem> recommendations = null;
 		try {
-			DataModel model = new FileDataModel(new File("D:/ml-1m/movie_preferences.txt"));//鏋勯�犳暟鎹ā鍨嬶紝File-based
-			ItemSimilarity similarity = new PearsonCorrelationSimilarity(model);//璁＄畻鍐呭鐩镐技搴�
-			Recommender recommender = new GenericItemBasedRecommender(model, similarity);//鏋勯�犳帹鑽愬紩鎿�
-			recommendations = recommender.recommend(userID, size);//寰楀埌鎺ㄨ崘鎺ヨ繃
+			DataModel model = new FileDataModel(new File("D:/ml-1m/movie_preferences.txt"));//构造数据模型
+			ItemSimilarity similarity = new PearsonCorrelationSimilarity(model);//计算内容相似度  
+			Recommender recommender = new GenericItemBasedRecommender(model, similarity);//构造推荐引擎  
+			recommendations = recommender.recommend(userID, size);//得到推荐结果
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();

@@ -1,6 +1,4 @@
-/**
- * 锟斤拷锟斤拷锟斤拷菘锟�
- */
+
 package com.rcd.conn;
 
 import java.sql.*;

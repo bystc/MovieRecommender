@@ -5,9 +5,7 @@
   <head>
     <title>Movie Recommend</title>
             <style type="text/css">  
-            body{background: url(img/p2969.jpg) no-repeat;background-size:cover;font-size: 16px;}  
-            
-
+            body{background: url(img/p2969.jpg) no-repeat;background-size:cover;font-size: 16px;}        
         </style>  
   </head>
   
