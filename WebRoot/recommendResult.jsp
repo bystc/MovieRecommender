@@ -20,7 +20,7 @@
     <td width="50%" align="center" valign="top">
     <table border="0">
     <tr><td align="left" colspan="4"><font color="black">你的电影</font></td></tr>
-    <tr><td>电影名称</td><td>上映年份</td><td>电影类型</td><td>评分</td></tr>
+    <tr><td>电影名称</td><td>上映年份</td><td>电影类型</td><td>评分</td><td>电影海报</td></tr>
     <%
   		//定义一个颜色数组
  		String []color = {"white","#AAAAFF"};
@@ -32,6 +32,7 @@
     		<td><%=ownInfo.getPublishedYear() %></td>
     		<td><%=ownInfo.getType() %></td>
     		<td><%=ownInfo.getPreference() %></td>
+    		<td><img src="image/<%=ownInfo.getName()+" "%>.jpg" width=150px height=250px></td>
     		</tr>
     		<%
     	}
@@ -52,6 +53,7 @@
     		<td><%=recommendInfo.getPublishedYear() %></td>
     		<td><%=recommendInfo.getType() %></td>
     		<td><%=recommendInfo.getPreference() %></td>
+    		<td><img src="image/<%=recommendInfo.getName()+" " %>.jpg" width=150px height=250px></td>
     		</tr>
     		<%
     	}

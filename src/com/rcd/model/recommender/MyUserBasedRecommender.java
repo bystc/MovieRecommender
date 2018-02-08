@@ -21,7 +21,7 @@ public class MyUserBasedRecommender {
 			UserSimilarity similarity = new PearsonCorrelationSimilarity(model);//用PearsonCorrelation 算法计算用户相似度
 			UserNeighborhood neighborhood = new NearestNUserNeighborhood(3, similarity, model);//计算用户的“邻居”，这里将与该用户最近距离为 3 的用户设置为该用户的“邻居”。
 			Recommender recommender = new CachingRecommender(new GenericUserBasedRecommender(model, neighborhood, similarity));//采用 CachingRecommender 为 RecommendationItem 进行缓存
-			recommendations = recommender.recommend(userID, size);//得到推荐的结果，size是推荐接过的数目
+			recommendations = recommender.recommend(userID, size);//得到推荐的结果，size是推荐结果的数目
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
