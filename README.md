@@ -98,11 +98,12 @@ GenericPreference preference = new GenericPreference(1, 101, 4.0f);
 
 用户1基于User的推荐结果：
 
-![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/user1.jpg)
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/user1.png)
 用户1基于Item的推荐结果：
 
-![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/item1.jpg)
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/item1.png)
 用户1基于Slope one的推荐结果：
 
-![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/slope.jpg)
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/slope1.png)
+
 #### 原博客地址：http://blog.csdn.net/huhui_cs/article/details/8596388
