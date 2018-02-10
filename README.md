@@ -94,4 +94,15 @@ d) 对数据模型的优化——In-memory DataModel
 GenericPreference preference = new GenericPreference(1, 101, 4.0f);  
 这其中， 1是用户 ID，long 型；101是物品 ID，long 型；4.0f 是用户偏好，float 型。从这个例子可以看出，一个 GenericPreference 的数据就占用8+8+4=20 字节，所以如果只简单实用数组 Array 加载用户偏好数据，必然占用大量的内存，Mahout 在这方面做了一些优化，它创建了 PreferenceArray（接口）保存一组用户偏好数据，为了优化性能，Mahout 给出了两个实现类，GenericUserPreferenceArray 和 GenericItemPreferenceArray，分别按照用户和物品本身对用户偏好进行组装，这样就可以压缩用户 ID 或者物品 ID 的空间。
 
+界面部分截图：
+
+用户1基于User的推荐结果：
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender
+/raw/master/user1.jpg)
+用户1基于Item的推荐结果：
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender
+/raw/master/item1.jpg)
+用户1基于Slope one的推荐结果：
+![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender
+/raw/master/slope.jpg)
 #### 原博客地址：http://blog.csdn.net/huhui_cs/article/details/8596388
