@@ -1,4 +1,5 @@
 # 基于Mahout实现协同过滤推荐算法的电影推荐系统
+A film recommendation system based on Mahout to implement collaborative filtering recommendation algorithm 
 
 ## 1 Mahout介绍
 
