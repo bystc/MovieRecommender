@@ -13,4 +13,4 @@ A film recommendation system based on Mahout to implement collaborative filterin
 
 ![image](https://github.com/bystc/CollaborativeFilteringMovieRecommender/raw/master/slope1.png)
 
-#### 原博客地址：http://blog.csdn.net/huhui_cs/article/details/8596388
+#### 原博客地址：https://blog.csdn.net/bystc/article/details/87904666
